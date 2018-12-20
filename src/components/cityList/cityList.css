@@ -1,0 +1,31 @@
+.cityListItems {
+    cursor: pointer;
+    padding: 5px 30px 5px 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    margin: 3px auto;
+    background-color: rgba(0, 0, 0, 0.418);
+    color: #fff;
+}
+
+.listWeather {
+    display: block;
+}
+
+.cityContainer {
+    margin-top: 3rem;
+}
+
+.closeItems {
+    z-index: 1000;
+    position: absolute;
+    color: #fff;
+    top: 5px;
+    right: 5px;
+    font-size: 16px;
+}
+
+.test {
+    position: relative;
+}

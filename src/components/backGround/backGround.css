@@ -1,0 +1,18 @@
+.backGroundImg {
+    height: 100vh;
+    padding: 1rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+}
+
+.showSearchInput {
+    position: absolute;
+    right: 1rem;
+    color: #fff;
+    font-size: 32px;
+}
+
+.hideInput {
+    display: none;
+}
