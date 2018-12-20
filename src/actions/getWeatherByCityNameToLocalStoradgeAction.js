@@ -18,7 +18,7 @@ function fetchByName(){
         let cityList = JSON.parse(localStorage.getItem('cityList'));
             return Promise.all(
                 cityList.map(el => 
-                    axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${el}&APPID=f9309e2cd6d1456b7357e1316b09ae22`))
+                    axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${el}&APPID=f9309e2cd6d1456b7357e1316b09ae22`))
             ) 
     }    
 }

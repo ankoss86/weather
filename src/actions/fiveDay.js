@@ -7,7 +7,7 @@ const getHistory = (data) => ({
 })
 
 function fetchHistory(cityName){
-    return axios.get(`http://api.openweathermap.org/data/2.5/forecast?id=${cityName}&APPID=f9309e2cd6d1456b7357e1316b09ae22`)
+    return axios.get(`https://api.openweathermap.org/data/2.5/forecast?id=${cityName}&APPID=f9309e2cd6d1456b7357e1316b09ae22`)
 }
 
 export const asyncHistory = (cityName) => dispatch => {
